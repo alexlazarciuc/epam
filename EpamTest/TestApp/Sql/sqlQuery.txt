@@ -1,0 +1,6 @@
+﻿SELECT DISTINCT StudyGroups.*
+FROM StudyGroups
+JOIN StudyGroupUsers ON StudyGroups.StudyGroupId = StudyGroupUsers.StudyGroupId
+JOIN Users ON Users.UserId = StudyGroupUsers.UserId
+WHERE Users.Name LIKE 'M%'
+ORDER BY StudyGroups.CreateDate ASC;

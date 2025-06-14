@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build outputs
+bin/
+obj/
+TestResults/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# DotCover
+*.dotCover
+
+# Index files
+*.vsidx
